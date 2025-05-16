@@ -4,7 +4,7 @@
 
 ## 功能：
 
-批量clone github repositories
+batch clone github repositories
 
 
 
@@ -31,5 +31,22 @@
 ## 输出
 
 - 用户名+编号命名的文件夹列表
+
 - log.txt: 执行日志
+
 - fatal-log.txt: clone 失败记录
+
+- 目录样式
+
+  ```
+  ├── clone_projects.bat
+  ├── projects.csv
+  ├── log.txt
+  ├── fatal-log.txt
+  ├── user1-001
+  │   └── (repo1内容)
+  └── user2-002
+      └── (repo2内容)
+  ```
+
+  
